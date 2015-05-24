@@ -1,0 +1,211 @@
+{
+   "is": "root",
+    "node": "Unemployment % labor force",
+    "value": 5.7815,
+    "children": [
+        {
+        "is": "greater",
+        "node": "GDP per capita",
+        "value": 2626.4205,
+        "children": [
+            {
+            "is": "greater",
+            "node": "Unemployment % labor force",
+            "value": 19.971,
+            "children":[
+                {
+                "is": "greater",
+                "node": "National revenue % GDP",
+                "value": 23.6605,
+                "children": [
+                    {
+                    "is": "greater",
+                    "node": "GDP per capita",
+                    "value": 34111.528,
+                    "children": []
+                    }
+                ]
+                },
+                {
+                "is": "smaller",
+                "node": "Gross national debt % GDP",
+                "value": 65.395,
+                "children": [
+                    {
+                    "is": "greater",
+                    "node": "National expenditure % GDP",
+                    "value": 55.233,
+                    "children": [
+                        {
+                        "is": "greater",
+                        "node": "National revenue % GDP",
+                        "value": 46.641,
+                        "children": []
+                        }
+                    ]
+                    },
+                    {
+                    "is": "smaller",
+                    "node": "GDP per capita",
+                    "value": 13454.671,
+                    "children": [
+                        {
+                        "is": "greater",
+                        "node": "Gross national debt % GDP",
+                        "value": 19.968,
+                        "children": []
+                        },
+                        {
+                        "is": "smaller",
+                        "node": "GDP per capita",
+                        "value": 4417.327,
+                        "children": []
+                        }
+                    ]
+                    }
+                ]
+                }
+            ]
+            },
+            {
+            "is": "smaller",
+            "node": "National revenue % GDP",
+            "value": 17.586,
+            "children": [
+                {
+                "is": "greater",
+                "node": "Unemployment % labor force",
+                "value": 16.785,
+                "children": [
+                    {
+                    "is": "greater",
+                    "node": "National revenue % GDP",
+                    "value": 33.452,
+                    "children": [
+                        {
+                        "is": "greater",
+                        "node": "GDP per capita",
+                        "value": 1911.714,
+                        "children": []
+                        },
+                        {
+                        "is": "smaller",
+                        "node": "Unemployment % labor force",
+                        "value": 25.2,
+                        "children": []
+                        }
+                    ]
+                    },
+                    {
+                    "is": "smaller",
+                    "node": "Unemployment % labor force",
+                    "value": 6.156,
+                    "children": [
+                        {
+                        "is": "smaller",
+                        "node": "GDP per capita",
+                        "value": 2156.5075,
+                        "children": []
+                        }
+                    ]
+                    }
+                ]
+                },
+                {
+                "is": "smaller",
+                "node": "Gross national debt % GDP",
+                "value": 89.33,
+                "children": [
+                    {
+                    "is": "greater",
+                    "node": "Unemployment % labor force",
+                    "value": 6.8035,
+                    "children": [
+                        {
+                        "is": "smaller",
+                        "node": "GDP per capita",
+                        "value": 1895.77,
+                        "children": []
+                        }
+                    ]
+                    },
+                    {
+                    "is": "smaller",
+                    "node": "National expenditure % GDP",
+                    "value": 19.5225,
+                    "children": []
+                    }
+                ]
+                }
+            ]
+            }
+        ]
+        },
+        {
+        "is": "smaller",
+        "node": "Unemployment % labor force",
+        "value": 0.402,
+        "children": [
+            {
+            "is": "greater",
+            "node": "GDP per capita",
+            "value": 51700.837,
+            "children": [
+                {
+                "is": "greater",
+                "node": "National revenue % GDP",
+                "value": 30.401,
+                "children": [
+                    {
+                    "is": "greater",
+                    "node": "Gross national debt % GDP",
+                    "value": 3.034,
+                    "children": []
+                    }
+                ]
+                },
+                {
+                "is": "smaller",
+                "node": "GDP per capita",
+                "value": 9843.802,
+                "children": [
+                    {
+                    "is": "greater",
+                    "node": "National expenditure % GDP",
+                    "value": 22.3195,
+                    "children": [
+                        {
+                        "is": "smaller",
+                        "node": "GDP per capita",
+                        "value": 12032.1075,
+                        "children": []
+                        }
+                    ]
+                    },
+                    {
+                    "is": "smaller",
+                    "node": "National expenditure % GDP",
+                    "value": 18.0325,
+                    "children": [
+                        {
+                        "is": "smaller",
+                        "node": "Unemployment % labor force",
+                        "value": 3.805,
+                        "children": []
+                        }
+                    ]
+                    }
+                ]
+                }
+            ]
+            },
+            {
+            "is": "smaller",
+            "node": "GDP per capita",
+            "value": 9563.1345,
+            "children": []
+            }
+        ]
+        }
+    ]
+}

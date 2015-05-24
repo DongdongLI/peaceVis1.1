@@ -1,0 +1,211 @@
+{
+   "is": "root",
+    "node": "UNEMPLOYMENT_perc_labor_force",
+    "value": 5.7815,
+    "children": [
+        {
+        "is": "greater",
+        "node": "GDP_PER_CAPITA",
+        "value": 2626.4205,
+        "children": [
+            {
+            "is": "greater",
+            "node": "UNEMPLOYMENT_perc_labor_force",
+            "value": 19.971,
+            "children":[
+                {
+                "is": "greater",
+                "node": "NAT_REVENUE_perc_of_GDP",
+                "value": 23.6605,
+                "children": [
+                    {
+                    "is": "greater",
+                    "node": "GDP_PER_CAPITA_units",
+                    "value": 34111.528,
+                    "children": []
+                    }
+                ]
+                },
+                {
+                "is": "smaller",
+                "node": "GROSS_NAT_DEBT_perc_of_GDP",
+                "value": 65.395,
+                "children": [
+                    {
+                    "is": "greater",
+                    "node": "NAT_EXPENDITURE_perc_of_GDP",
+                    "value": 55.233,
+                    "children": [
+                        {
+                        "is": "greater",
+                        "node": "NAT_REVENUE_perc_of_GDP",
+                        "value": 46.641,
+                        "children": []
+                        }
+                    ]
+                    },
+                    {
+                    "is": "smaller",
+                    "node": "GDP_PER_CAPITA_units",
+                    "value": 13454.671,
+                    "children": [
+                        {
+                        "is": "greater",
+                        "node": "GROSS_NAT_DEBT_perc_of_GDP",
+                        "value": 19.968,
+                        "children": []
+                        },
+                        {
+                        "is": "smaller",
+                        "node": "GDP_PER_CAPITA_units",
+                        "value": 4417.327,
+                        "children": []
+                        }
+                    ]
+                    }
+                ]
+                }
+            ]
+            },
+            {
+            "is": "smaller",
+            "node": "NAT_REVENUE_perc_of_GDP",
+            "value": 17.586,
+            "children": [
+                {
+                "is": "greater",
+                "node": "UNEMPLOYMENT_perc_labor_force",
+                "value": 16.785,
+                "children": [
+                    {
+                    "is": "greater",
+                    "node": "NAT_REVENUE_perc_of_GDP",
+                    "value": 33.452,
+                    "children": [
+                        {
+                        "is": "greater",
+                        "node": "GDP_PER_CAPITA_units",
+                        "value": 1911.714,
+                        "children": []
+                        },
+                        {
+                        "is": "smaller",
+                        "node": "UNEMPLOYMENT_perc_of_labor_force",
+                        "value": 25.2,
+                        "children": []
+                        }
+                    ]
+                    },
+                    {
+                    "is": "smaller",
+                    "node": "UNEMPLOYMENT_perc_of_labor_force",
+                    "value": 6.156,
+                    "children": [
+                        {
+                        "is": "smaller",
+                        "node": "GDP_PER_CAPITA_units",
+                        "value": 2156.5075,
+                        "children": []
+                        }
+                    ]
+                    }
+                ]
+                },
+                {
+                "is": "smaller",
+                "node": "GROSS_NAT_DEBT_perc_of_GDP",
+                "value": 89.33,
+                "children": [
+                    {
+                    "is": "greater",
+                    "node": "UNEMPLOYMENT_perc_of_labor_force",
+                    "value": 6.8035,
+                    "children": [
+                        {
+                        "is": "smaller",
+                        "node": "GDP_PER_CAPITA_units",
+                        "value": 1895.77,
+                        "children": []
+                        }
+                    ]
+                    },
+                    {
+                    "is": "smaller",
+                    "node": "NAT_EXPENDITURE_perc_of_GDP",
+                    "value": 19.5225,
+                    "children": []
+                    }
+                ]
+                }
+            ]
+            }
+        ]
+        },
+        {
+        "is": "smaller",
+        "node": "UNEMPLOYMENT_perc_labor",
+        "value": 0.402,
+        "children": [
+            {
+            "is": "greater",
+            "node": "GDP_PER_CAPITA_units",
+            "value": 51700.837,
+            "children": [
+                {
+                "is": "greater",
+                "node": "NAT_REVENUE_perc_of_GDP",
+                "value": 30.401,
+                "children": [
+                    {
+                    "is": "greater",
+                    "node": "GROSS_NAT_DEBT_perc_of_GDP",
+                    "value": 3.034,
+                    "children": []
+                    }
+                ]
+                },
+                {
+                "is": "smaller",
+                "node": "GDP_PER_CAPITA_units",
+                "value": 9843.802,
+                "children": [
+                    {
+                    "is": "greater",
+                    "node": "NAT_EXPENDITURE_perc_of_GDP",
+                    "value": 22.3195,
+                    "children": [
+                        {
+                        "is": "smaller",
+                        "node": "GDP_PER_CAPITA_units",
+                        "value": 12032.1075,
+                        "children": []
+                        }
+                    ]
+                    },
+                    {
+                    "is": "smaller",
+                    "node": "NAT_EXPENDITURE_perc_of_GDP",
+                    "value": 18.0325,
+                    "children": [
+                        {
+                        "is": "smaller",
+                        "node": "UNEMPLOYMENT_perc_labor_force",
+                        "value": 3.805,
+                        "children": []
+                        }
+                    ]
+                    }
+                ]
+                }
+            ]
+            },
+            {
+            "is": "smaller",
+            "node": "GDP_PER_CAPITA_units",
+            "value": 9563.1345,
+            "children": []
+            }
+        ]
+        }
+    ]
+}

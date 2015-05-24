@@ -1,0 +1,21 @@
+to-do list:
+===========
+-Missing values:
+	Totally missing (without zeros)
+	Totally missing (zeros)
+	Partially missing (zeros at the begining) >> find a creative representation
+	Partially missing (zeros at the end) >> find a creative representation
+-Mark selected countries' boundaries on click
+-Separators using Dojox
+-Use color brewer
+-Adjustable scale according to the max of the coutries' attribute
+-Arc between countries fighting each other (directionality)
+
+Extra for the project:
+======================
+-Animate the war level on the map while a line sliding on the time series showing which year is it
+
+Extra for data map contribution:
+================================
+-Zoom in by scope, use scope field to change from world to continent when clicking on a country belongs to the continent
+-Zoom by changing projectiong settings (select projoectionConfig from map object)

@@ -1,0 +1,18 @@
+{
+    "node": "UNEMPLOYMENT_perc_labor",
+    "value": 5.7815,
+    "children": [
+        {
+        	"is": "grater",
+        	"node": "GDP_PER_CAPITA",
+        	"value": 2626,
+        	"children": []
+        },
+        {
+        	"is": "smaller",
+        	"node": "UNEMPLOYMENT_perc_labor",
+        	"value": 0.402,
+        	"children": []
+        }
+    ]
+}

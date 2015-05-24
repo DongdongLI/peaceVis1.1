@@ -1,0 +1,47 @@
+Tree attributes:
+UNEMPLOYMENT_perc_labor_force
+GDP_PER_CAPITA
+NAT_REVENUE_perc_of_GDP
+GDP_PER_CAPITA_units
+GROSS_NAT_DEBT_perc_of_GDP
+NAT_EXPENDITURE_perc_of_GDP
+UNEMPLOYMENT_perc_of_labor_force
+UNEMPLOYMENT_perc_labor
+
+==================================================================================================
+
+Tree attributes:                                                            COLUMN_NAME
+UNEMPLOYMENT_perc_labor_force                   UNEMPLOYMENT_AMOUNT
+GDP_PER_CAPITA                                  GDP_PURCH_POWER_PER_CAPITA_AMOUNT
+NAT_REVENUE_perc_of_GDP                         NATIONAL_REVENUE_AMOUNT
+GDP_PER_CAPITA_units                            GDP_PURCH_POWER_PER_CAPITA_UNITS
+GROSS_NAT_DEBT_perc_of_GDP                      GROSS_NATIONAL_DEBT_AMOUNT
+NAT_EXPENDITURE_perc_of_GDP                     NATIONAL_EXPENDITURE_AMOUNT
+UNEMPLOYMENT_perc_of_labor_force                UNEMPLOYMENT_AMOUNT
+UNEMPLOYMENT_perc_labor                         UNEMPLOYMENT_AMOUNT
+
+==================================================================================================
+Total 5 attributes in MERGED_ECON_WAR_FINAL.CSV
+
+UNEMPLOYMENT_AMOUNT:
+====================
+UNEMPLOYMENT_perc_labor_force
+UNEMPLOYMENT_perc_of_labor_force
+UNEMPLOYMENT_perc_labor
+
+
+=======================
+GDP_PER_CAPITA_units (GDP_PURCH_POWER_PER_CAPITA_UNITS) all values are Current international dollar. May consider it the same as GDP_PER_CAPITA
+GDP_PER_CAPITA (GDP_PURCH_POWER_PER_CAPITA_AMOUNT)
+
+
+=======================
+NAT_REVENUE_perc_of_GDP (NATIONAL_REVENUE_AMOUNT)
+
+
+=======================
+GROSS_NAT_DEBT_perc_of_GDP (GROSS_NATIONAL_DEBT_AMOUNT)
+
+
+=======================
+NAT_EXPENDITURE_perc_of_GDP (NATIONAL_EXPENDITURE_AMOUNT)

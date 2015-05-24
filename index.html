@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<title>PeaceVis</title>
+<head>
+    <style>
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow:hidden;
+}
+.decisionNodes circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+.decisionNodes text {
+  font: 10px sans-serif;
+}
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 1.5px;
+}
+#borderContainer {
+    width: 100%;
+    height: 100%;
+}
+        /*body { font: 12px Arial;}*/
+        path { 
+            stroke-width: 2;
+            fill: none;
+        }
+        #Axis { 
+            stroke:black;
+            stroke-width: 1;
+            shape-rendering: crispEdges;
+        }
+        .country{
+            
+        }
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: grey;
+            stroke-width: 1;
+            shape-rendering: crispEdges;
+        }
+        #wrapper {
+            /*width: 500px;*/
+            border: 1px solid black;
+            overflow: hidden; /* will contain if #first is longer than #second */
+        }
+        #unemployment {
+            /*width: 650px;*/
+            float:left; /* add this */
+            border: 1px solid black;
+        }
+        #warLevel {
+            border: 1px solid black;
+            overflow: hidden; /* if you don't want #second to wrap below #first */
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="dojo-release-1.10.2/dijit/themes/claro/claro.css">
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/topojson/1.6.9/topojson.min.js"></script>
+    <script src="data/datamaps.world.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/decisionTree.js"></script>
+    <script src="js/timeSeries_unemployment.js"></script>
+    <script src="js/timeSeries_warLevel.js"></script>
+    <script>dojoConfig = {parseOnLoad: true}</script>
+    <script type="text/javascript" src='dojo-release-1.10.2/dojo/dojo.js'></script>
+    <script>
+        require(["dojo/parser", "dijit/layout/ContentPane", "dijit/layout/BorderContainer"]);
+    </script>
+</head>
+
+<body class="claro">
+
+<div data-dojo-type="dijit/layout/BorderContainer" data-dojo-props="liveSplitters:true, splitter:true, design:'header', gutters:true" id="borderContainer">
+
+<div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="liveSplitters:true, splitter:true, region:'top'" style="height:300px;overflow-x:hidden;border:1">
+
+<div data-dojo-type="dijit/layout/BorderContainer" data-dojo-props="liveSplitters:true, splitter:true, design:'header', gutters:true" id="borderContainer2">
+
+    <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="liveSplitters:true, splitter:true, region:'center'" style="height:300px;border:3">
+        <div id="map" style="position: relative; width: 950px; height: 400px;"></div>
+    </div>
+
+    <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="liveSplitters:true, splitter:true, region:'right'" style="height:300px;border:3">
+        <div id="decisionTree" style="position: relative; width: 310px; height: 1000px;">
+<script src="js/decisionTree.js"></script>
+        </div>
+    </div>
+
+</div>
+
+</div>
+    <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="splitter:true, region:'center'">
+        <div id="unemployment"></div>
+    </div>
+    <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="splitter:true, region:'right'"style="width: 620px;">
+        <div id="warLevel"></div>
+    </div>
+</div>
+
+</body>
+</html>
